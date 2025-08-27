@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(12, 164, 228),rgb(20, 20, 208), rgb(24, 3, 101));
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 10%;
+}
+.telaGame{
+    
+}

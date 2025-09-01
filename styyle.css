@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Permanent+Marker&display=swap');
+.h1{
+  position: absolute;
+  z-index: 7;
+  color: rgb(255, 157, 0);
+  text-shadow: 10px 10px black;
+  font-family: "Bungee", sans-serif;
+  font-weight: 700;
+  font-size: 200px;
+  left: 60%;
+  top: -10%;
+  
+}
+.h3{
+  position: absolute;
+  z-index: 7;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  left: 60%;
+}
 body{
     margin: 0;
     padding: 0;
@@ -6,13 +29,14 @@ body{
 }
 .capaPrincipal{
     margin: none;
+    object-fit: cover;
     height: 100vh;/*altura*/
     width: 100%;/*largura*/
-    filter: contrast(150%);
+    filter: contrast(160%);
     object-fit: cover;
 }
 .bntPlay{
-    background-color: rgb(86, 26, 0);
+    background-color: rgb(255, 157, 0);
     border: none;
     border-radius: 30px;
     width: 500px;
@@ -23,7 +47,7 @@ body{
     font-family:Comic Sans MS, Comic Sans, cursive;
     position: absolute;
     top: 77%;
-    left: 37%;
+    left: 61%;
     cursor: pointer;
 }
 .bntPlay:hover {
@@ -52,11 +76,12 @@ body{
     }
   }
 .imgAjuda{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 5%;
-    height: 10vh;
-    top: 1%;
-    left: 94%;
+  mix-blend-mode: multiply;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  height: 10vh;
+  top: 1%;
+  left: 0%;
 }

@@ -19,39 +19,39 @@
   font-size: 50px;
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
-  left: 60%;
+  left: 58%;
 }
 body{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
 }
 .capaPrincipal{
-    margin: none;
-    object-fit: cover;
-    height: 100vh;/*altura*/
-    width: 100%;/*largura*/
-    filter: contrast(160%);
-    object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  margin: none; 
+  height: 100vh;/*altura*/
+  width: 100%;/*largura*/
+  filter: contrast(160%);
 }
 .bntPlay{
-    background-color: rgb(255, 157, 0);
-    border: none;
-    border-radius: 30px;
-    width: 500px;
-    height: 90px;
-    color: white;
-    box-shadow: 10px 10px black;
-    font-size: 50px;
-    font-family:Comic Sans MS, Comic Sans, cursive;
-    position: absolute;
-    top: 77%;
-    left: 61%;
-    cursor: pointer;
+  background-color: rgb(255, 157, 0);
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+  height: 90px;
+  color: rgb(0, 0, 0);
+  box-shadow: 10px 10px black;
+  font-size: 50px;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  position: absolute;
+  top: 77%;
+  left: 61%;
+  cursor: pointer;
 }
 .bntPlay:hover {
-    animation: wobble 0.8s;
+  animation: wobble 0.8s;
   }
   
   @keyframes wobble {

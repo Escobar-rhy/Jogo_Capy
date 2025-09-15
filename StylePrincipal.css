@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Permanent+Marker&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
 .h1{
   position: absolute;
   z-index: 7;
@@ -7,11 +15,11 @@
   text-shadow: 10px 10px black;
   font-family: "Bungee", sans-serif;
   font-weight: 700;
-  font-size: 200px;
+  font-size: 100px;
   left: 60%;
-  top: -10%;
-  
+  top: 1%;
 }
+
 .h3{
   position: absolute;
   z-index: 7;
@@ -21,12 +29,19 @@
   font-weight: 400;
   left: 58%;
 }
-body{
+
+.iconeSom{
+  
+  position: absolute;
+  z-index: 10;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  display: flex;
+  width: 5%;
+  height: 10vh;
+  top: 13%;
+  left: 1%;
 }
+
 .capaPrincipal{
   object-fit: cover;
   position: absolute;
@@ -35,6 +50,7 @@ body{
   width: 100%;/*largura*/
   filter: contrast(160%);
 }
+
 .bntPlay{
   background-color: rgb(255, 157, 0);
   border: none;
@@ -50,10 +66,22 @@ body{
   left: 61%;
   cursor: pointer;
 }
+
 .bntPlay:hover {
   animation: wobble 0.8s;
   }
-  
+
+.imgAjuda{
+  mix-blend-mode: multiply;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  height: 10vh;
+  top: 1%;
+  left: 0%;
+}
+
   @keyframes wobble {
     0%,
     100% {
@@ -75,13 +103,3 @@ body{
       transform: translateX(-5%) rotate(-1deg);
     }
   }
-.imgAjuda{
-  mix-blend-mode: multiply;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 5%;
-  height: 10vh;
-  top: 1%;
-  left: 0%;
-}

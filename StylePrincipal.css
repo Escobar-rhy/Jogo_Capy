@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Matemasie&display=swap');
+
 
 body{
   margin: 0;
@@ -11,13 +14,13 @@ body{
 .h1{
   position: absolute;
   z-index: 7;
-  color: rgb(255, 157, 0);
-  text-shadow: 10px 10px black;
-  font-family: "Bungee", sans-serif;
-  font-weight: 700;
-  font-size: 100px;
-  left: 60%;
-  top: 1%;
+  color: #ca9263;
+  text-shadow: 10px 10px #5b392f;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  left: 5%;
+  top: -1%;
 }
 
 .h3{
@@ -25,13 +28,13 @@ body{
   z-index: 7;
   color: rgb(0, 0, 0);
   font-size: 50px;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
-  left: 58%;
+  left: 9%;
+  top: 10%;
 }
 
 .iconeSom{
-  
   position: absolute;
   z-index: 10;
   margin: 0;
@@ -39,7 +42,7 @@ body{
   width: 5%;
   height: 10vh;
   top: 13%;
-  left: 1%;
+  left: 93%;
 }
 
 .capaPrincipal{
@@ -52,18 +55,18 @@ body{
 }
 
 .bntPlay{
-  background-color: rgb(255, 157, 0);
+  background-color: #ca9263;
   border: none;
   border-radius: 30px;
   width: 500px;
   height: 90px;
   color: rgb(0, 0, 0);
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px #5b392f;
   font-size: 50px;
-  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-family: "Hachi Maru Pop", cursive;
   position: absolute;
   top: 77%;
-  left: 61%;
+  left: 37%;
   cursor: pointer;
 }
 
@@ -72,6 +75,7 @@ body{
   }
 
 .imgAjuda{
+  
   mix-blend-mode: multiply;
   position: absolute;
   margin: 0;
@@ -79,7 +83,7 @@ body{
   width: 5%;
   height: 10vh;
   top: 1%;
-  left: 0%;
+  left: 93%;
 }
 
   @keyframes wobble {
